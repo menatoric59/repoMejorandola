@@ -23,12 +23,15 @@ git log > archivo.txt (exporta el log de commits a un txt)
 
 
 ********************************************************************
-/* Uso de ramas (branches)
+/* Uso de ramas (BRANCHES)
 ********************************************************************
+git branch (lista las ramas existentes)
+git branch - a (muestra todas las ramas, incluyendo la oculta origin-mater)
+git merge [ramaExterna](fusionamos la rama externa a la rama activa)
 
 
 ********************************************************************
-/* Comandos para remoto
+/* Comandos para REMOTO
 ********************************************************************
 git remote add origin https://github.com/menatoric59/repoMejorandola.git
 
@@ -38,3 +41,5 @@ git remote -v (listando enlaces de repositorios)
 
 git push origin master (empujar los commits locales al repositorio remoto
 los parámetros son: origin y rama a empujar)
+
+git fetch origin (sincroniza la informacion del origin a la rama oculta origin-master)
